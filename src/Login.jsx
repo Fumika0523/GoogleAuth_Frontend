@@ -4,7 +4,7 @@ const Login = () => {
 
 const loginWithGoogle=()=>{
     console.log("Please login with Google")
-    window.location.href="http://localhost:8000/auth/google/callback"
+    window.location.href="http://localhost:8000/auth/google/"
     // use any URL >> endpoint
     //Google Open it own
 }
@@ -22,7 +22,6 @@ const loginWithGoogle=()=>{
 }
 
 export default Login
-
 
 
 //React >> SRA >> Routing >> It loads within App
