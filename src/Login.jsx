@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 
 const Login = () => {
-
 const loginWithGoogle=()=>{
     console.log("Please login with Google")
     window.location.href="http://localhost:8000/auth/google/"
-    // use any URL >> endpoint
-    //Google Open it own
+    //Browser moves from http://localhost:5173/ → http://localhost:8000/auth/google. React is out of the picture now; it’s just the browser talking to Express.
 }
+
 
   return (
     <>
